@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+}
+
+.headerContainer {
+    border-bottom: 1px solid rgba(242, 129, 29, 56);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+    position: fixed;
+    width: 100%;
+    background-color: #ffffff;
+    top: 0;
+}
+
+.logoContainer {
+    margin-right: 150px;
+}
+
+.logoContainer img {
+    width: 50px;
+}
+
+.linkMenu {
+    justify-content: space-around;
+}
+
+.linkMenu a {
+    padding: 15px;
+    color: #034C8C;
+    font-weight: 600;
+}
+
+.userContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 150px;
+}
+
+.iconContainer img {
+    width: 50px;
+}
+
+.userInfoContainer {
+    display: flex;
+}
+
+.userInfoContainer a {
+    margin-left: 5px;
+    color: #000000;
+}
+
+.bannerContainer {
+    margin-top: 71px;
+}
+
+.bannerBox {
+    display: flex;
+    background-color: #000000;
+    height: 449px;
+    align-items: center;
+    justify-content: center;
+}
+
+.bannerBox input {
+    background-color: transparent;
+    width: 685px;
+    height: 52px;
+    margin-top: 60px;
+    border-radius: 8px;
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    padding: 0 16px 0 16px;
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.courseContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.courseContainer div h2 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 30px;
+    color: #78849E;
+}
+
+.courseLinkContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.courseLinkContainer a {
+    color: #FFFFFF;
+    padding: 8px;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin: 6px;
+    font-size: 15px;
+}
+.fastAccessContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    background-color: #E4E8F0;
+    padding-bottom: 50px;
+}
+.fastAccessContainer div h2 {
+    margin: 50px 0 30px 0;
+    color: #78849E;
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+}
+.cardsContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    display: flex;
+    width: 158px;
+    height: 145px;
+    background-color: #FFFFFF;
+    margin: 6px;
+    border-radius: 10px;
+    align-items: flex-end;
+    padding: 0 0 10px 0;
+}
+.card p {
+    color: #1C4A87;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    margin-left: 15px;
+}
+.secondBannerContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+    padding-bottom: 50px;
+}
+.secondBannerBox {
+    background-color: #000000;
+    height: 370px;
+    width: 950px;
+    border-radius: 10px;
+}
+
