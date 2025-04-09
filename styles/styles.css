@@ -23,7 +23,7 @@ a {
 }
 
 .logoContainer {
-    margin-right: 150px;
+    margin-right: 5vw;
 }
 
 .logoContainer img {
@@ -38,6 +38,7 @@ a {
     padding: 15px;
     color: #034C8C;
     font-weight: 600;
+    font-size: 14px;
 }
 
 .userContainer {
