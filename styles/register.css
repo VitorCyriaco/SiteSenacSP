@@ -41,8 +41,12 @@
 }
 .dataConfirmContainer{
     display: flex;
-    flex-direction: row;
+    flex-direction: row;         
     align-items: center;
     justify-content: center;
-    margin-top: 10px;
+    margin-top: 0px;
+    box-shadow: #000000 0px 0px 10px 0px;
+    width: 500px;
+    height: 40px;
+    background-color: #b9b9b9;
 }
