@@ -7,7 +7,6 @@
 }
 body {
     overflow-x: hidden;
-
   }
 
   .container{
@@ -54,6 +53,17 @@ a {
     flex-direction: column;
     align-items: center;
     margin-left: 150px;
+}
+
+.userContainer a {
+    display: flex;
+    width: 180px;
+    height: 40px;
+    background-color: #034C8C;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
 }
 
 .iconContainer img {
@@ -378,16 +388,31 @@ a {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content:space-evenly;
-    width: 500px;
 }
-.confirmInfo a{
+.forgotPassword{
     color: #1C4A87;
     font-weight: 500;
     font-size: 14px;
-    margin-left: 15px;
     padding: 20px;
 }
+
+.signinButton{
+    margin-left: 40px;
+    display: flex;
+    background-color: #034C8C;
+    height: 30px;
+    width: 100px;
+    color: #FFFFFF;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+  }
+
+  .signinButton:hover{
+    background-color: #0256a0;
+  }
+
 .confirmInfo button{
     width: 90px;
     height: 35px;
@@ -417,9 +442,11 @@ a {
     font-size: 15px;
 }
 .register{
-    background-color:#caba2a ;
-    border: 1px solid #000000;
     margin-left: 10px;
     padding: 2px;
     border-radius: 5px;
+}
+
+.register a{
+    color: #034C8C;
 }
