@@ -55,17 +55,6 @@ a {
     margin-left: 150px;
 }
 
-.userContainer a {
-    display: flex;
-    width: 180px;
-    height: 40px;
-    background-color: #034C8C;
-    border-radius: 8px;
-    align-items: center;
-    justify-content: center;
-    color: #FFFFFF;
-}
-
 .iconContainer img {
     width: 50px;
 }
@@ -74,13 +63,36 @@ a {
     display: flex;
 }
 
+.userUnlogedContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 150px;
+}
+
+.userUnlogedContainer .noLoginButton{
+    background-color: #034C8C;
+    width: 180px;
+    height: 40px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    transition: 0.3s;
+}
+
+.userUnlogedContainer .noLoginButton:hover{
+    background-color: #035ba8;
+}
+
 .userInfoContainer a {
     margin-left: 5px;
-    color: #000000;
+    color: #034C8C;
 }
 
 .bannerContainer {
-    margin-top: 71px;
+    margin-top: 70px;
 }
 
 .bannerBox {
@@ -163,6 +175,7 @@ a {
     border-radius: 10px;
     align-items: flex-end;
     padding: 0 0 10px 0;
+    box-shadow: 0 2px 4px 1px rgba(0, 0, 0, 0.2);
 }
 .card p {
     color: #1C4A87;
@@ -356,14 +369,16 @@ a {
     font-weight: 500;
 }
 .loginBox{
-    background-color: #d6d6d6;
-    height: 300px;
+    background-color: #FFFFFF;
+    height: 400px;
     width: 500px;
     box-shadow: #000000 0px 0px 10px 0px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    border-radius: 8px 8px 0 0;
+    padding-bottom: 30px;
 
 
 }
@@ -386,19 +401,20 @@ a {
 }
 .confirmInfo{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
 }
 .forgotPassword{
+    display: flex;
     color: #1C4A87;
     font-weight: 500;
     font-size: 14px;
-    padding: 20px;
+    margin-left: 200px;
 }
 
 .signinButton{
-    margin-left: 40px;
     display: flex;
+    margin-top: 30px;
     background-color: #034C8C;
     height: 30px;
     width: 100px;
@@ -430,10 +446,11 @@ a {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    background-color: #b9b9b9;
+    background-color: #FFFFFF;
     width: 500px;
     height: 50px;
     box-shadow: #000000 0px 0px 10px 0px;
+    border-radius: 0 0 8px 8px;
 }
 .registerBox p{
     color: #000000;
