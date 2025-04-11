@@ -281,7 +281,7 @@ a {
 .loginContainer div h2 {
     margin: 50px 0 30px 0;
     color: #78849E;
-    font-family: "Montserrat", sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 30px;
     font-weight: 500;
 }
@@ -323,7 +323,6 @@ a {
 }
 .confirmInfo a{
     color: #1C4A87;
-    font-family: "Montserrat", sans-serif;
     font-weight: 500;
     font-size: 14px;
     margin-left: 15px;
@@ -336,7 +335,7 @@ a {
     border-radius: 10px;
     border: none;
     color: #FFFFFF;
-    font-family: "Montserrat", sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: 500;
     font-size: 15px;
 }
@@ -353,7 +352,7 @@ a {
 }
 .registerBox p{
     color: #000000;
-    font-family: "Montserrat", sans-serif;
+    font-family:Arial, Helvetica, sans-serif;
     font-weight: 500;
     font-size: 15px;
 }
