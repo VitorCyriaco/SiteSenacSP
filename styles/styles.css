@@ -27,7 +27,7 @@ a {
     width: 100%;
     background-color: #ffffff;
     top: 0;
-    z-index: 1;
+    z-index: 2;
 }
 
 .logoContainer {
@@ -240,6 +240,11 @@ a {
     background-color: #000000;
 }
 
+.imgCardsContainer .imgCard img{
+    height: 466px;
+    width: 300px;
+}
+
 /*  Esstilização do footer  */
 .footerContainer {
     font-family: Arial, sans-serif;
@@ -358,8 +363,7 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 250px;
-  margin-bottom:150px ;
+  margin: 150px 0 150px 0;
   background-color: transparent;
 
 }
