@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", () => {
         const nome = document.getElementById("nome").value.trim();
         const email = document.getElementById("email").value.trim();
         const senha = document.getElementById("senha").value.trim();
-        const senha2 = document.getElementById("senha2").value.trim();
+
   
         if (nome === "" || email === "" || senha === "") {
           alert("Preencha todos os campos!");
