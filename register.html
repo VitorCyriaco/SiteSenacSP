@@ -34,15 +34,14 @@
         <div class="registerBox">
             <h2>Cadastro</h2>
             <form class="registerForm">
-                <input type="text" placeholder="Nome" />
-                <input type="email" placeholder="Email" />
-                <input type="password" placeholder="Senha" />
-                <input type="password" placeholder="Confirmar Senha" />
-
+                <input id="nome" type="text" placeholder="Nome" />
+                <input id ="email" type="email" placeholder="Email" />
+                <input id ="senha" type="password" placeholder="Senha" />
+                <ul id="listaUsuarios"></ul>
 
                     <div class="confirmInfo">
 
-                    <button type="submit" style="margin-top: 30px;">Cadastrar</button>
+                    <button id="cadastrarBtn" type="submit" style="margin-top: 30px;">Cadastrar</button>
                     </div>
 
 
@@ -53,6 +52,7 @@
                     <p>Ja possui uma conta? <a href="login.html">Entrar</a></p>
                 </div>
     </section>
+    
     <footer>
         <div class="footer-top">
             <ul class="footer-menu">
@@ -91,6 +91,7 @@
             </div>
         </div>
     </footer>
+    <script src="scripts/main.js"></script>
 </body>
 
 </html>
