@@ -5,6 +5,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles/styles.css" />
+    <link rel="stylesheet" href="styles/reset.css" />
     <title>Senac SP - Perfil</title>
 </head>
 <body>
@@ -37,7 +38,7 @@
         <div class="profileContainer">
             <a href="#">MEU CADASTRO</a>
         <div id ="cadastro"class="submenu">
-            <a href="#">Alterar meus dados</a>
+            <a href="">Alterar meus dados</a>
             <a href="#">Alterar meu login</a>
             <a href="#">Alterar minha senha</a>
         </div>
@@ -53,37 +54,163 @@
         <div class="profileContainer">
             <a href="#">INFORMAÇÕES</a>
         <div id="informacoes" class="submenu">
-            <a href="#">Manual do aluno</a>
+            <a href="https://www1.sp.senac.br/hotsites/materiais/aprendizagem/Manual_do_aluno_Programa_Senac_de_Aprendizagem.pdf?_gl=1*kb5z87*_gcl_au*MTI3ODYxMjY1Ni4xNzQ3OTU1OTc5LjEwMjM5NDI5NzguMTc0Nzk1NjAwMy4xNzQ3OTU2MDAy*_ga*MTEwMTkzNzcwNy4xNzQ3OTU1OTc5*_ga_Z1SEVXH7G0*czE3NDc5NTU5NzkkbzEkZzEkdDE3NDc5NTYwMDkkajMwJGwwJGgwJGRQVXBkVzBfdnBQTElsbHVrb0RZVGdBLW5BZW5MR1loREJ3">Manual do aluno</a>
             </div>  
         </div>
         <div class="profileContainer">
             <a href="#">BIBLIOTECA</a>
         <div id="biblioteca" class="submenu">
-            <a href="#">Acervo</a>
-            <a href="#">Busca integrada</a>
-            <a href="#">ficha catalogada</a>
-            <a href="#">Guia de Normalização</a>
+            <a href="https://www.sp.senac.br/login-unico/login?destino=http://biblioteca.sp.senac.br/bnportal/m">Acervo</a>
+            <a href="https://www.sp.senac.br/jsp/login/default.jsp?template=1734.dwt&testeira=386">Busca integrada</a>
+            <a href="https://www.sp.senac.br/jsp/default.jsp?template=2222.dwt&testeira=386">Busca catalogada</a>
+            <a href="https://www3.sp.senac.br/hotsites/campus_santoamaro/cd/arquivos/biblioteca/guia_normatizacao.pdf?_gl=1*60vlij*_gcl_au*MTI3ODYxMjY1Ni4xNzQ3OTU1OTc5LjEwMjM5NDI5NzguMTc0Nzk1NjAwMy4xNzQ3OTU2MDAy*_ga*MTEwMTkzNzcwNy4xNzQ3OTU1OTc5*_ga_Z1SEVXH7G0*czE3NDc5NTU5NzkkbzEkZzEkdDE3NDc5NTY0MTMkajM0JGwwJGgwJGRQVXBkVzBfdnBQTElsbHVrb0RZVGdBLW5BZW5MR1loREJ3">Guia de Normalização</a>
             </div>
         </div>
         <div class="profileContainer">
             <a href="#">OPORTUNIDADES</a>
         <div id="oportunidades" class="submenu">
-            <a href="#">Vagas no Senac</a>
-            <a href="#">Vagas de Empregos</a>
-            <a href="#">Vagas de Jovem Aprendiz</a>
-            <a href="#">Senac Carreiras</a>
+            <a href="https://www.sp.senac.br/recruPortal/portal/mural?ticket=3503CD171DB2BC507C8E5A1A5AE65AAB">Vagas no Senac</a>
+            <a href="https://www.sp.senac.br/area-exclusiva/pagina?cod=15&subcod=82">Vagas de Empregos</a>
+            <a href="https://www.sp.senac.br/area-exclusiva/pagina?cod=15&subcod=83">Vagas de Jovem Aprendiz</a>
             </div>
         </div>
         <div class="profileContainer">
             <a href="#">BENEFÍCIOS</a>
             <div id="beneficios" class="submenu">
-            <a href="#">Guia Básico de IA</a>
+            <a href="https://www.sp.senac.br/area-exclusiva/guia-basico-ia/#/">Guia Básico de IA</a>
             <a href="#">Softwares</a>
             </div>
 
         </div>
     </div>
+    <section class="formulario">
+        <form>
+  <!-- Dados Pessoais -->
+  <fieldset>
+    <legend>Dados Pessoais</legend>
 
+    <label>Nome Completo: *</label>
+    <input type="text" value="" required>
+
+    <label>Nome Social:</label>
+    <input type="text" placeholder="">
+
+    <label>CPF: *</label>
+    <input type="text" value="" required>
+
+    <label>Data de Nascimento: *</label>
+    <input type="date" value="" required>
+
+    <label>Sexo: *</label>
+    <label><input type="radio" name="sexo" checked> Masculino</label>
+    <label><input type="radio" name="sexo"> Feminino</label>
+  </fieldset>
+
+  <!-- Dados Adicionais -->
+  <fieldset>
+    <legend>Dados Adicionais</legend>
+
+    <label>Cor:</label>
+    <select>
+      <option >BRANCO</option>
+      <option >PRETO</option>
+    </select>
+
+    <label>Estado Civil:</label>
+    <select>
+      <option>Solteiro(a)</option>
+      <option>Casado(a)</option>
+      <option>Namorando</option>
+      
+    </select>
+
+    <label>Estado - Nascimento:</label>
+    <select>
+      <option selected>SP - SÃO PAULO</option>
+    </select>
+
+    <label>Cidade - Nascimento:</label>
+    <input type="text" value="">
+
+    <label>Nome da Mãe:</label>
+    <input type="text" value="">
+
+    <label>Nível de escolaridade da mãe:</label>
+    <select>
+      <option>SELECIONE UMA OPÇÃO</option>
+    </select>
+
+    <label>Situação da escolaridade:</label>
+    <select>
+      <option>SELECIONE UMA OPÇÃO</option>
+    </select>
+
+    <label>Tipo de Documento:</label>
+    <select>
+      <option selected>RG</option>
+    </select>
+
+    <label>Número do Documento:</label>
+    <input type="text" value="">
+
+    <label>Órgão Emissor:</label>
+    <select>
+      <option selected>SSP</option>
+    </select>
+
+    <label>Estado Emissor:</label>
+    <select>
+      <option selected>SP - SÃO PAULO</option>
+    </select>
+  </fieldset>
+
+  <!-- Endereço -->
+  <fieldset>
+    <legend>Endereço</legend>
+
+    <label>CEP:</label>
+    <input type="text" value="">
+
+    <label>Rua:</label>
+    <input type="text" value="">
+
+    <label>Número:</label>
+    <input type="text" value="">
+
+    <label>Complemento:</label>
+    <input type="text">
+
+    <label>Bairro:</label>
+    <input type="text" value="">
+
+    <label>Estado:</label>
+    <select>
+      <option selected>SP - SÃO PAULO</option>
+    </select>
+
+    <label>Cidade:</label>
+    <select>
+      <option selected>SOROCABA</option>
+    </select>
+  </fieldset>
+
+  <!-- Contato -->
+  <fieldset>
+    <legend>Contato</legend>
+
+    <label>Telefone residencial:</label>
+    <input type="text" placeholder="">
+
+    <label>Telefone comercial:</label>
+    <input type="text" placeholder="">
+
+    <label>Celular: *</label>
+    <input type="text" value="" required>
+  </fieldset>
+
+  <button type="submit">✔ ALTERAR</button>
+</form>
+ </section>
        
 
     

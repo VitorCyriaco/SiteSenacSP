@@ -480,10 +480,11 @@ a {
     padding: 10px;
     justify-content: space-around;
     height: 75px;
-    margin: 100px 100px 800px 100px;
+    margin: 100px 100px 200px 100px;
     border-radius: 10px 10px 0 0; /* Apenas topo esquerdo e direito */
     flex-direction: row;
     align-items: stretch;
+    z-index: 5;
 }
 
 /* Container de cada item */
@@ -494,6 +495,7 @@ a {
     position: relative;
     height: 100%;
     width: 120%;
+    z-index: 1;
 }
 
 /* Link principal */
