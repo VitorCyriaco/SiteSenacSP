@@ -1,12 +1,12 @@
 document.querySelectorAll('.profileContainer > a').forEach(link => {
-    link.addEventListener('mouseover', function(e) {
+    link.addEventListener('click', function(e) {
         e.preventDefault();
 
         // Fecha outros submenus
         document.querySelectorAll('.submenu').forEach(menu => {
             if (menu !== this.nextElementSibling) {
                 menu.style.display = 'none';
-
+                
             }
         });
 
@@ -14,10 +14,5 @@ document.querySelectorAll('.profileContainer > a').forEach(link => {
         const submenu = this.nextElementSibling;
         submenu.style.display = submenu.style.display === 'flex' ? 'none' : 'flex';
     });
-    // fecha ao tirar o mouse de cima
-    link.addEventListener('mouseout', function(e) {
-        e.preventDefault();
-        const submenu = this.nextElementSibling;
-        submenu.style.display = 'none';
-    });
+    
 });
