@@ -473,3 +473,66 @@ a {
 .register a{
     color: #034C8C;
 }
+
+.navbar {
+    display: flex;
+    background-color: #3f51b5;
+    padding: 10px;
+    justify-content: space-around;
+    height: 75px;
+    margin: 100px 100px 800px 100px;
+    border-radius: 10px 10px 0 0; /* Apenas topo esquerdo e direito */
+    flex-direction: row;
+    align-items: stretch;
+}
+
+/* Container de cada item */
+.profileContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch; /* ESTICA submenu para igualar largura */
+    position: relative;
+    height: 100%;
+}
+
+/* Link principal */
+.profileContainer > a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #3f51b5;
+    border-radius: 0;
+    z-index: 101;
+    text-align: center;
+}
+
+/* Submenu */
+.submenu {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: #3f51b5;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    z-index: 100;
+}
+
+/* Submenu links */
+.submenu a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 14px;
+}
+
+.submenu a:hover {
+    background-color: #5c6bc0;
+}
