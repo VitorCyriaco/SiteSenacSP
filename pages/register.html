@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="../styles/styles.css" />
     <link rel="stylesheet" href="../styles/register.css" />
     <title>Senac SP - Cadastro</title>
@@ -11,9 +11,12 @@
 
 <body>
     <div class="container">
+        <!-- Cabeçalho fixo com logo e menu -->
         <section class="headerContainer">
             <div class="logoContainer">
-                <a href="../indexNoLogin.html"><img src="../assets/img/logoSenac.png" alt="logo" /></a>
+                <a href="../indexNoLogin.html">
+                    <img src="../assets/img/logoSenac.png" alt="logo Senac" />
+                </a>
             </div>
             <div class="linkMenu">
                 <a href="https://www.sp.senac.br/cursos-tecnicos?_gl=1*qfiw9c*_gcl_aw*R0NMLjE3NDgwMTk5MTIuQ2owS0NRand1Y0RCQmhEeEFSSXNBTnFGZHIwOFp2SXBvUTFKZnpuTFZNM1E3WW9obVdSMHAxRC1MZDNiSERUSGJvQTVBbjk3M2MyQXU2NGFBcmtDRUFMd193Y0I.*_gcl_au*NDA1NTQ3MDI2LjE3NDc5MzQ0NzcuMTAwNjY5NDA0NS4xNzQ4MDI0NDMyLjE3NDgwMjQ0NDA.*_ga*MTk0MzgxMjA3OS4xNzE3MTA4MzQ4*_ga_Z1SEVXH7G0*czE3NDgwMjQzODQkbzYkZzEkdDE3NDgwMjQ5NzEkajU4JGwwJGgwJGRVUnczbHBxMkpZWDdXLURIQUtYX2RLSWNPMTdxM2tpZG9B">CURSOS</a>
@@ -28,32 +31,28 @@
         </section>
     </div>
 
-    </section>
-
     <section class="registerContainer">
+        <!-- Formulário de cadastro -->
         <div class="registerBox">
             <h2>Cadastro</h2>
-            <form class="registerForm">
-                <input id="nome" type="text" placeholder="Nome" required/>
-                <input id ="email" type="email" placeholder="Email" required/>
-                <input id ="senha" type="password" placeholder="Senha" required/>
+            <form class="registerForm" id="formCadastro">
+                <input id="nome" type="text" placeholder="Nome" required />
+                <input id="email" type="email" placeholder="Email" required />
+                <input id="senha" type="password" placeholder="Senha" required />
                 <ul id="listaUsuarios"></ul>
-
-                    <div class="confirmInfo">
-
-                    <button id="cadastrarBtn" type="submit" style="margin-top: 30px;">Cadastrar</button>
-                    </div>
-
-
+                <div class="confirmInfo">
+                    <button id="cadastrarBtn" type="submit">Cadastrar</button>
+                </div>
             </form>
-
         </div>
         <div class="dataConfirmContainer">
-                    <p>Ja possui uma conta? <a href="login.html">Entrar</a></p>
-                </div>
+            <!-- Link para login caso já tenha conta -->
+            <p>Possui uma conta? <a href="login.html">Entrar</a></p>
+        </div>
     </section>
-    
+
     <footer>
+        <!-- Rodapé com menu e informações institucionais -->
         <div class="footer-top">
             <ul class="footer-menu">
                 <li><a href="#">Nossos cursos</a></li>
@@ -85,12 +84,14 @@
             </div>
 
             <div class="social-icons">
+                <!-- Ícones de redes sociais -->
                 <a href="#"><img src="instagram.svg" alt="Instagram" /></a>
                 <a href="#"><img src="facebook.svg" alt="Facebook" /></a>
                 <a href="#"><img src="whatsapp.svg" alt="WhatsApp" /></a>
             </div>
         </div>
     </footer>
+
     <script src="../scripts/main.js"></script>
 </body>
 
