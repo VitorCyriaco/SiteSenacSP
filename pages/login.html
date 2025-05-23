@@ -4,16 +4,15 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles/styles.css" />
-    <link rel="stylesheet" href="styles/register.css" />
-    <title>Senac SP - Cadastro</title>
+    <link rel="stylesheet" href="../styles/styles.css" />
+    <title>Senac SP - Login</title>
 </head>
 
 <body>
     <div class="container">
         <section class="headerContainer">
             <div class="logoContainer">
-                <a href="indexNoLogin.html"><img src="assets/img/logoSenac.png" alt="logo" /></a>
+                <a href="../indexNoLogin.html"><img src="../assets/img/logoSenac.png" alt="logo" /></a>
             </div>
             <div class="linkMenu">
                 <a href="#">CURSOS</a>
@@ -25,34 +24,31 @@
                 <a href="#">O SENAC</a>
                 <a href="#">SERVIÇOS</a>
             </div>
+
         </section>
-    </div>
-
-    </section>
-
-    <section class="registerContainer">
-        <div class="registerBox">
-            <h2>Cadastro</h2>
-            <form class="registerForm">
-                <input id="nome" type="text" placeholder="Nome" required/>
-                <input id ="email" type="email" placeholder="Email" required/>
-                <input id ="senha" type="password" placeholder="Senha" required/>
-                <ul id="listaUsuarios"></ul>
-
+        <section class="loginContainer">
+            <div class="loginBox">
+                <h2>Login</h2>
+                <form class="loginForm">
+                    <input id="username" type="email" placeholder="Email" />
+                    <input id ="password" type="password" placeholder="Senha" />
                     <div class="confirmInfo">
 
-                    <button id="cadastrarBtn" type="submit" style="margin-top: 30px;">Cadastrar</button>
+                    <a class="forgotPassword" href="#">Esqueci minha senha</a>
+                    <button id="loginBtn" class =signinButton type="button" style="margin-top: 30px;">Entrar</button>
+                     
                     </div>
-
-
-            </form>
-
-        </div>
-        <div class="dataConfirmContainer">
-                    <p>Ja possui uma conta? <a href="login.html">Entrar</a></p>
+                </form>
+            </div>
+            <div class="registerBox">
+                <p>Não possui uma<strong> conta?</strong></p>
+                <div class="register">
+                <a href="register.html">Cadastre-se</a>
                 </div>
-    </section>
-    
+            </div>
+
+        </section>
+    </div>
     <footer>
         <div class="footer-top">
             <ul class="footer-menu">
@@ -91,7 +87,6 @@
             </div>
         </div>
     </footer>
-    <script src="scripts/main.js"></script>
+    <script src="../scripts/main.js"></script>
 </body>
-
 </html>
