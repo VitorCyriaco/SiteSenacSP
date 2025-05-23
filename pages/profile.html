@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../styles/styles.css" />
     <link rel="stylesheet" href="../styles/reset.css" />
+    <link rel="stylesheet" href="../styles/news.css" />
     <title>Senac SP - Perfil</title>
 </head>
 
@@ -39,9 +40,8 @@
         <div class="profileContainer">
             <a href="#">SERVIÇOS DO ALUNO</a>
             <div id="servicos" class="submenu">
-                <a href="#">Formulário de solicitações</a>
-                <a href="#">Manual do aluno</a>
-                <a href="#">Notas, frequência e financeiro</a>
+                <a href="requestForm.html">Formulário de solicitações</a>
+                <a href="grade.html">Notas, frequência e financeiro</a>
             </div>
         </div>
         <div class="profileContainer">
@@ -85,14 +85,45 @@
             <a href="#">MEU CADASTRO</a>
             <div id="cadastro" class="submenu">
                 <a href="./editProfile.html">Alterar meus dados</a>
-                <a href="#">Alterar meu login</a>
-                <a href="#">Alterar minha senha</a>
+                <a href="./editLogin.html">Alterar meu login</a>
             </div>
         </div>
     </div>
 
-    <!-- Adicionar aqui o conteúdo de notificações e notícias -->
+    <div class="card-section">
 
+  <div class="notificacoes-container">
+  <!-- Aviso Geral -->
+  <div class="notificacao-card">
+    <div class="notificacao-title">Avisos Gerais</div>
+    <div class="notificacao-content">
+      <p><strong>Atualize seu cadastro para o Censo da Educação Básica:</strong></p>
+      <p>Identificamos cadastros incompletos (ex: local de nascimento e endereço residencial).</p>
+      <ul>
+        <li>Acesse <strong>Meu Cadastro > Alterar Meus Dados</strong></li>
+        <li>Preencha local de nascimento e endereço</li>
+        <li>Clique em “Alterar” e salve</li>
+      </ul>
+      <p>Pronto! Agora você está em dia com o Censo.</p>
+      <a href="#editProfile">Alterar dados agora mesmo</a>
+    </div>
+  </div>
+
+  <!-- Rede Educacional -->
+  <div class="notificacao-card">
+    <div class="notificacao-title">Rede Educacional</div>
+    <div class="notificacao-content">
+      <p>Use a plataforma <strong>Microsoft Teams</strong> para aulas virtuais.</p>
+      <ul>
+        <li>Entre: <a href="https://teams.microsoft.com" target="_blank">teams.microsoft.com</a></li>
+        <li>Email: <strong>Seu email</strong></li>
+        <li>Senha: a mesma da Área Exclusiva</li>
+        <li>Entre em “Equipes” para acessar sua turma</li>
+      </ul>
+      <p>Ajuda? Acesse <strong>Serviços ao aluno > Formulário de Solicitações</strong> > Suporte Técnico</p>
+    </div>
+  </div>
+</div>
     <footer>
         <div class="footer-top">
             <ul class="footer-menu">
@@ -132,7 +163,6 @@
         </div>
     </footer>
     <script src="../scripts/main.js"></script>
-    <script src="../scripts/utils.js"></script>
 </body>
 
 </html>

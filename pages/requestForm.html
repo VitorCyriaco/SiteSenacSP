@@ -39,7 +39,7 @@
         <div class="profileContainer">
             <a href="#">SERVIÇOS DO ALUNO</a>
             <div id="servicos" class="submenu">
-                <a href="requestForm.html">Formulário de solicitações</a>
+                <a href="">Formulário de solicitações</a>
                 <a href="grade.html">Notas, frequência e financeiro</a>
             </div>
         </div>
@@ -83,143 +83,57 @@
         <div class="profileContainer">
             <a href="#">MEU CADASTRO</a>
             <div id="cadastro" class="submenu">
-                <a href="">Alterar meus dados</a>
-                <a href="editLogin.html">Alterar meu login</a>
+                <a href="./editProfile.html">Alterar meus dados</a>
+                <a href="./editLogin.html">Alterar meu login</a>
             </div>
         </div>
     </div>
-    <section class="formulario">
-        <form>
-            <!-- Dados Pessoais -->
-            <fieldset>
-                <legend>Dados Pessoais</legend>
+    <div class="form-container">
+        <form class="support-form">
+  <h2>📞 Suporte / Solicitação</h2>
 
-                <label>Nome Completo: *</label>
-                <input type="text" value="" required>
+  <div class="form-group">
+    <label for="phone">Telefone *</label>
+    <input type="text" id="phone" name="phone" required>
+  </div>
 
-                <label>Nome Social:</label>
-                <input type="text" placeholder="">
+  <div class="form-group">
+    <label for="course">Curso em andamento / finalizado *</label>
+    <select id="course" name="course" required>
+      <option value="">Selecionar...</option>
+      <option value="curso1">Curso 1</option>
+      <option value="curso2">Curso 2</option>
+    </select>
+  </div>
 
-                <label>CPF: *</label>
-                <input type="text" value="" required>
+  <div class="form-group">
+    <label for="modality">Modalidade</label>
+    <input type="text" id="modality" name="modality">
+  </div>
 
-                <label>Data de Nascimento: *</label>
-                <input type="date" value="" required>
+  <div class="form-group">
+    <label for="request">Solicitação *</label>
+    <select id="request" name="request" required>
+      <option value="">Selecionar...</option>
+      <option value="duvida">Dúvida</option>
+      <option value="problema">Problema</option>
+      <option value="outro">Outro</option>
+    </select>
+  </div>
 
-                <label>Sexo: *</label>
-                <label><input type="radio" name="sexo" checked> Masculino</label>
-                <label><input type="radio" name="sexo"> Feminino</label>
-            </fieldset>
+  <div class="form-group">
+    <label for="description">Descreva abaixo a sua solicitação ou problema *</label>
+    <textarea id="description" name="description" required></textarea>
+  </div>
 
-            <!-- Dados Adicionais -->
-            <fieldset>
-                <legend>Dados Adicionais</legend>
+  <div class="form-group">
+    <label for="attachment">Anexo (opcional)</label>
+    <input type="file" id="attachment" name="attachment">
+  </div>
 
-                <label>Cor:</label>
-                <select>
-                    <option>BRANCO</option>
-                    <option>PRETO</option>
-                </select>
-
-                <label>Estado Civil:</label>
-                <select>
-                    <option>Solteiro(a)</option>
-                    <option>Casado(a)</option>
-                    <option>Namorando</option>
-
-                </select>
-
-                <label>Estado - Nascimento:</label>
-                <select>
-                    <option selected>SP - SÃO PAULO</option>
-                </select>
-
-                <label>Cidade - Nascimento:</label>
-                <input type="text" value="">
-
-                <label>Nome da Mãe:</label>
-                <input type="text" value="">
-
-                <label>Nível de escolaridade da mãe:</label>
-                <select>
-                    <option>SELECIONE UMA OPÇÃO</option>
-                </select>
-
-                <label>Situação da escolaridade:</label>
-                <select>
-                    <option>SELECIONE UMA OPÇÃO</option>
-                </select>
-
-                <label>Tipo de Documento:</label>
-                <select>
-                    <option selected>RG</option>
-                </select>
-
-                <label>Número do Documento:</label>
-                <input type="text" value="">
-
-                <label>Órgão Emissor:</label>
-                <select>
-                    <option selected>SSP</option>
-                </select>
-
-                <label>Estado Emissor:</label>
-                <select>
-                    <option selected>SP - SÃO PAULO</option>
-                </select>
-            </fieldset>
-
-            <!-- Endereço -->
-            <fieldset>
-                <legend>Endereço</legend>
-
-                <label>CEP:</label>
-                <input type="text" value="">
-
-                <label>Rua:</label>
-                <input type="text" value="">
-
-                <label>Número:</label>
-                <input type="text" value="">
-
-                <label>Complemento:</label>
-                <input type="text">
-
-                <label>Bairro:</label>
-                <input type="text" value="">
-
-                <label>Estado:</label>
-                <select>
-                    <option selected>SP - SÃO PAULO</option>
-                </select>
-
-                <label>Cidade:</label>
-                <select>
-                    <option selected>SOROCABA</option>
-                </select>
-            </fieldset>
-
-            <!-- Contato -->
-            <fieldset>
-                <legend>Contato</legend>
-
-                <label>Telefone residencial:</label>
-                <input type="text" placeholder="">
-
-                <label>Telefone comercial:</label>
-                <input type="text" placeholder="">
-
-                <label>Celular: *</label>
-                <input type="text" value="" required>
-            </fieldset>
-
-            <button type="submit">✔ ALTERAR</button>
-        </form>
-    </section>
-
-
-
-
+  <button type="submit" class="submit-btn">Enviar</button>
+</form>
+</div>
     <footer>
         <div class="footer-top">
             <ul class="footer-menu">
@@ -259,7 +173,6 @@
         </div>
     </footer>
     <script src="../scripts/main.js"></script>
-    <script src="../scripts/utils.js"></script>
 </body>
 
 </html>
