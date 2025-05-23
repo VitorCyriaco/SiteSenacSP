@@ -68,3 +68,73 @@ button[type="submit"]:hover {
   margin: auto;
   margin-bottom: 150px;
 }
+.support-form {
+    max-width: 700px;
+    margin: 40px auto;
+    background-color: #f9f9fb;
+    padding: 30px 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    font-family: "Segoe UI", sans-serif;
+  }
+
+  .support-form h2 {
+    margin-bottom: 20px;
+    font-size: 22px;
+    color: #3f51b5;
+  }
+
+  .support-form .form-group {
+    margin-bottom: 20px;
+  }
+
+  .support-form label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: 600;
+    color: #333;
+  }
+
+  .support-form input[type="text"],
+  .support-form input[type="email"],
+  .support-form select,
+  .support-form textarea {
+    width: 100%;
+    padding: 12px 14px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+    transition: border 0.3s;
+  }
+
+  .support-form input:focus,
+  .support-form select:focus,
+  .support-form textarea:focus {
+    outline: none;
+    border-color: #3f51b5;
+  }
+
+  .support-form textarea {
+    min-height: 100px;
+    resize: vertical;
+  }
+
+  .support-form input[type="file"] {
+    margin-top: 10px;
+  }
+
+  .support-form .submit-btn {
+    background-color: #3f51b5;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s;
+  }
+
+  .support-form .submit-btn:hover {
+    background-color: #303f9f;
+  }
+ 

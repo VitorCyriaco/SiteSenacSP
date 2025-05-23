@@ -54,7 +54,7 @@ document.addEventListener("DOMContentLoaded", () => {
         if (usuarioEncontrado) {
           localStorage.setItem("usuarioLogado", usuarioEncontrado.nome);
           alert(`Bem-vindo, ${usuarioEncontrado.nome}!`);
-          window.location.href = "index.html"; // redireciona
+          window.location.href = "../index.html"; // redireciona
         } else {
           alert("Usuário não encontrado. Faça o cadastro primeiro.");
         }
