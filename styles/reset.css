@@ -58,13 +58,13 @@ button[type="submit"] {
 button[type="submit"]:hover {
   background-color: #153666;
 }
-.formulario{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 20px;
-    width: 900px;
-    margin: auto;
-    margin-bottom: 150px;
+.formulario {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  width: 900px;
+  margin: auto;
+  margin-bottom: 150px;
 }
